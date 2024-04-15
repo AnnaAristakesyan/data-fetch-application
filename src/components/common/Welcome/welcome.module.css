@@ -1,0 +1,24 @@
+.Welcome {
+    max-width: 500px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+.signButton {
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: 23px;
+    color: rgba(56, 233, 56, 0.9);
+}
+.signButton:hover{
+    box-shadow: 5px 5px 10px 0px rgba(215, 214, 116, 0.5);
+    transition: 0.3s;
+    color: white;
+    background-color: rgba(239, 237, 66, 0.5) ;
+}
