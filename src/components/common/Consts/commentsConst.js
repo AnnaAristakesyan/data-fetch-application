@@ -1,0 +1,10 @@
+export const CommentBoxes = [['001', 'joe_1478@gmail.com', 'So bad.'],
+['002', 'rachel_257@gmail.com', 'Congratulations Sir.'],
+['003', 'phoebe_2000@gmail.com', 'I hate politics.'],
+['004', 'ross_1118@gmail.com', 'Good job.'],
+['005', 'monica_first@gmail.com', 'I love pandas.'],
+['006', 'helen_98@gmail.com', 'Oops.'],
+['007', 'mika_355@gmail.com', 'March is the craziest manth.'],
+['008', 'cara_sinior@gmail.com', 'I am not letting my kids eat that things.'],
+['009', 'chandler_bing@gmail.com', 'My favourite actor.'],
+]
