@@ -1,4 +1,5 @@
 import Comments from '../../components/common/Comments/Comments';
+import Images from '../../components/common/Images/Images';
 import Posts from '../../components/common/Posts/Posts';
 import styles from './homePage.module.css';
 
@@ -18,7 +19,7 @@ function HomePage(){
                     <button  className={styles.logOut}>Log out</button>
                     </div>
             </header>
-            <Comments/>
+            <Images/>
         </div>
     );
 }
