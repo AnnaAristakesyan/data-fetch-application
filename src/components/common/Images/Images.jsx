@@ -5,8 +5,8 @@ import { ImageConsts } from '../Consts/imagesConst';
 function Images(){
     return(
         <div className={styles.imgConatiner}>
-            {ImageConsts.map(([elem1, elem2, elem3])=>(
-                <div className={styles.imgBox}>
+            {ImageConsts.map(([elem1, elem2, elem3], index)=>(
+                <div className={styles.imgBox} key={index}>
                 <div className={styles.imgTitle}>
                  <img src={elem1} alt="nkar" style={{width: '80px', height: "80px"}}  />
                  <h5 style={{fontSize: "20px"}}>{elem2}</h5>
