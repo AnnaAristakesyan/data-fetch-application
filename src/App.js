@@ -4,6 +4,7 @@ import HomePage from './pages/HomePage/HomePage';
 import SignIn from './pages/SignIn/SignIn';
 import { Provider } from 'react-redux';
 import store from './app/store';
+import DataFetch from './components/common/DataFetching/DataFetch';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Routes>
           <Route path="/" element={<SignIn/>}/>
           <Route path="home/*" element={<HomePage/>}/>
+          <Route path="data/*" element={<DataFetch/>}/>
         </Routes>
       </Router>
     </div>
